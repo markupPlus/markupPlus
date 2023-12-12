@@ -1,14 +1,18 @@
 <!doctype html>
 <title>MarkupPlus</title>
 <style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; background-color: skyblue; }
+  h1 { font-size: 50px; margin-top: 0; margin-bottom: 15px;}
+  body { text-align: center; margin: 0; padding: 0; font: 20px Helvetica, sans-serif; color: #333; background-color: #fff; }
   article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+  .main {height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;}
   a { color: blue; text-decoration: none; }
   a:hover { color: #333; text-decoration: none; }
+  .saffron {background-color: #F4C430; height: 10px; position: absolute; left: 0; right: 0; top: 0;}
+  .green {background-color: green; height: 10px; position: absolute; left: 0; right: 0; bottom: 0;}
 </style>
 
+<div class="main">
+<div class="saffron"></div>
 <article>
     <h1>We&rsquo;ll be back soon!</h1>
     <div>
@@ -16,3 +20,5 @@
         <p>&mdash; MarkupPlus Team</p>
     </div>
 </article>
+<div class="green"></div>
+</div>
