@@ -12774,6 +12774,9 @@ blockquote p {
   font-weight: 700;
   color: var(--tg-color-gray-2);
 }
+.copyright-text {
+  text-align: left;
+}
 
 @media (max-width: 991.98px) {
   .copyright-text {
