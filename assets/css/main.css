@@ -2442,6 +2442,9 @@ textarea {
   .banner-content {
     text-align: center;
     margin-bottom: -45px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
   }
 }
 @media (max-width: 767.98px) {
