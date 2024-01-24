@@ -14666,6 +14666,9 @@ blockquote p {
   color: #fff;
   font-size: 16px;
 }
+.page-company .dark-image-section {
+  margin-bottom: 70px;
+}
 @media (max-width:990px) {
   .chat-connect li a i {
     font-size: 45px;
