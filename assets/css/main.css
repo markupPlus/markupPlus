@@ -14668,10 +14668,10 @@ blockquote p {
 }
 @media (max-width:990px) {
   .chat-connect li a i {
-    font-size: 40px;
+    font-size: 45px;
   }
   .chat-connect li {
-    margin: 40px 15px;
+    margin: 40px 20px;
   }
 }
 @media (max-width:990px) {
