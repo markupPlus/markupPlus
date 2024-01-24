@@ -85,6 +85,9 @@
 /*=============================
 	Typography css start
 ===============================*/
+html {
+  height: 100%;
+}
 body {
   font-family: var(--tg-body-font-family);
   font-size: var(--tg-body-font-size);
@@ -14617,4 +14620,64 @@ blockquote p {
   .about__img-wrap2-home8 .shape-2 {
     right: -15px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+.page-contact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.page-contact .banner-bg {
+  min-height: auto;
+  margin-top: 80px;
+  padding:36px 0px;
+  background-color: #282747;
+}
+.page-contact footer {
+  margin-top: auto;
+}
+.page-contact .banner-bg h1,
+.page-contact .banner-bg h2 {
+  color: #fff;
+  text-align: center;
+}
+.page-contact h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.chat-connect ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.chat-connect li {
+  margin: 50px;
+  text-align: center;
+}
+.chat-connect li a i {
+  font-size: 70px;
+  color: #4b53bc;
+  display: block;
+  text-align: center;
+}
+.chat-connect li a {
+  color: #414142;
+  font-size: 20px;
+}
+@media (max-width:990px) {
+  .chat-connect li a i {
+    font-size: 40px;
+  }
+  .chat-connect li {
+    margin: 40px 15px;
+  }
+}
+@media (max-width:990px) {
+  .chat-connect li a {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
