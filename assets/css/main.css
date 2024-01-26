@@ -14676,7 +14676,16 @@ blockquote p {
 .features__content p {
   line-height: 120%;
 }
-
+li.hr {
+  margin:0;
+  padding-bottom: 8px !important;
+  border-bottom: 1px solid #eee;
+}
+.li-view-all a {
+  text-align: center;
+  padding-top: 15px !important;
+  color: #2e3a3a !important;
+}
 @media (max-width:1299px) {
   .markupplus-strenth .features__content .title {
     font-size: 36px;
