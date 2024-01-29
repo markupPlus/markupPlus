@@ -14686,6 +14686,29 @@ li.hr {
   padding-top: 15px !important;
   color: #2e3a3a !important;
 }
+.markupplus-team-section {
+  background-color: #282747;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.markupplus-team div {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.markupplus-team h5 {
+  font-size: 22px;
+}
+.markupplus-team h6 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.markupplus-team p {
+  color: #fff;
+  font-size: 22px;
+}
 @media (max-width:1299px) {
   .markupplus-strenth .features__content .title {
     font-size: 36px;
