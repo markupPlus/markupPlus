@@ -14671,6 +14671,24 @@ blockquote p {
   padding: 60px 0px 60px 0px;
   text-align: center;
 }
+.graphics-items{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 30px;
+  text-align: center;
+  height: 100%;
+}
+
+.graphics-items .services-thumb  {
+  text-align: center;
+}
+.graphics-items .services-thumb img {
+  max-width: 100%;
+  width: auto;
+  height: 70px;
+}
+.graphics-items .services-content p {
+  margin: 0px
+}
 .looking-for-web-section {
   text-align: center;
 }
