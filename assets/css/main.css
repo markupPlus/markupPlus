@@ -14666,6 +14666,17 @@ blockquote p {
   color: #fff;
   font-size: 16px;
 }
+.blue-center-section {
+  background-color: var(--tg-heading-color);
+  padding: 60px 0px 60px 0px;
+  text-align: center;
+}
+.looking-for-web-section {
+  text-align: center;
+}
+.looking-for-web-section .container {
+  max-width: 850px;
+}
 .page-company .dark-image-section {
   margin-bottom: 70px;
 }
