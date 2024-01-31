@@ -14738,6 +14738,10 @@ li.hr {
   color: #fff;
   font-size: 22px;
 }
+.no-link {
+  cursor: none !important;
+  color: var(--tg-theme-primary) !important;
+}
 @media (max-width:1299px) {
   .markupplus-strenth .features__content .title {
     font-size: 36px;
