@@ -12176,10 +12176,10 @@ blockquote p {
   color: var(--tg-color-gray-2);
 }
 .footer-widget {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .footer-content p {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .footer__content-two {
   width: 80%;
@@ -14741,6 +14741,27 @@ li.hr {
 .no-link {
   cursor: none !important;
   color: var(--tg-theme-primary) !important;
+}
+.footer-widget .contacts {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: var(--tg-body-color);
+}
+.footer-widget .contacts a {
+  color: var(--tg-body-color);
+}
+.footer-widget .contacts div {
+  padding: 5px 0px;
+}
+.copyright-text p {
+  display: flex;
+}
+.link-policy {
+  margin-left: auto;
+  text-decoration: underline;
+}
+.footer-social {
+  margin-top: 15px;
 }
 @media (max-width:1299px) {
   .markupplus-strenth .features__content .title {
