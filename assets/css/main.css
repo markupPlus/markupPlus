@@ -14763,6 +14763,9 @@ li.hr {
 .footer-social {
   margin-top: 15px;
 }
+.a-live-training {
+  text-decoration: underline;
+}
 @media (max-width:1299px) {
   .markupplus-strenth .features__content .title {
     font-size: 36px;
