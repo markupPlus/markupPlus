@@ -1328,11 +1328,7 @@ textarea {
   background: rgba(255, 255, 255, 0.3);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
 }
-@media (max-width: 991.98px) {
-  .tg-header__area {
-    padding: 25px 0;
-  }
-}
+
 .tg-header__area-two {
   padding: 0 30px;
 }
@@ -1533,6 +1529,7 @@ textarea {
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-start;
+  min-height: 70px;
 }
 @media (max-width: 991.98px) {
   .tgmenu__nav {
@@ -7332,9 +7329,12 @@ textarea {
     display: none;
   }
 }
+.project__thumb-three {
+  text-align: center;
+}
 .project__thumb-three img {
-  height: auto;
-  width: 100%;
+  max-height: 640px;
+  max-width: 768px;
   object-fit: cover;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
