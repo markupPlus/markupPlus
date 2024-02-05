@@ -14671,6 +14671,33 @@ blockquote p {
   padding: 60px 0px 60px 0px;
   text-align: center;
 }
+.lets-work-section {
+  background-color: var(--tg-heading-color);
+  padding: 40px 0px 40px 0px;
+  text-align: left;
+}
+.lets-work-section .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.lets-work-section h2 {
+  margin-top: 10px;
+}
+.lets-work-section .content {
+ margin-top: 30px;
+ margin-bottom: 30px;
+ padding-right: 16px;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+}
+.lets-work-section .content .arrow {
+  background-color: transparent;
+  cursor: none;
+}
+.lets-work-section .content div:first-child {
+  padding-right: 16px;
+}
 .graphics-items{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding-top: 30px;
@@ -14787,6 +14814,16 @@ li.hr {
   .markupplus-strenth .features__content .title {
     font-size: 26px;
   }
+  .lets-work-section {
+    padding: 30px 0px;
+  }
+  .lets-work-section .content {
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+   .lets-work-section .content .arrow {
+    display: none;
+   }
 }
 
 /*# sourceMappingURL=main.css.map */
