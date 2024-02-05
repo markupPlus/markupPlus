@@ -14671,10 +14671,22 @@ blockquote p {
   padding: 60px 0px 60px 0px;
   text-align: center;
 }
+.blue-center-section a.btn {
+  border:1px solid #2e3a3a;
+}
+.blue-center-section a.btn:hover {
+  border:1px solid #fff;
+}
 .lets-work-section {
   background-color: var(--tg-heading-color);
   padding: 40px 0px 40px 0px;
   text-align: left;
+}
+.lets-work-section a.btn {
+  border:1px solid #2e3a3a;
+}
+.lets-work-section a.btn:hover {
+  border:1px solid #fff;
 }
 .lets-work-section .section-title {
   text-align: center;
