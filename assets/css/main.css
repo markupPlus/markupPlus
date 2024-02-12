@@ -46,7 +46,7 @@
   --tg-body-font-size: 16px;
   --tg-body-line-height: 1.5;
   --tg-heading-line-height: 1.2;
-  --tg-body-color: #3E4073;
+  --tg-body-color: #4b53bc;
   --tg-heading-color: #4b53bc;
   --tg-theme-primary: #2e3a3a;
   --tg-theme-secondary:#4b53bc;
@@ -5044,7 +5044,7 @@ textarea {
   color: var(--tg-theme-primary);
 }
 .services-content {
-  padding: 30px 30px 30px;
+  padding: 24px 16px 16px;
   position: relative;
 }
 .services-content .icon {
@@ -14805,6 +14805,25 @@ li.hr {
 .a-live-training {
   text-decoration: underline;
 }
+.hero-icon {
+  text-align: center;
+  padding-top: 16px;
+}
+.hero-icon img {
+  max-height: 80px;
+}
+.services-common-items .services-item {
+  border:1px solid rgb(228, 238, 255);
+}
+.you-will-learn-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.you-will-learn-section .box {
+  border: 1px solid #ccc;
+  padding: 30px 30px 15px 30px;
+}
+
 @media (max-width:1299px) {
   .markupplus-strenth .features__content .title {
     font-size: 36px;
